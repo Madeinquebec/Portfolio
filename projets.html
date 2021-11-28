@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--- index.html --->
+<!--- Programme par : Eric Gosselin --->
+<!--- Derniere modification : 2021-11-27 --->
+<html lang="fr-ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Eric Gosselin</title>
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Ce qu'on met ici ne sera pas dans le hamburger -->
+            <a class="navbar-brand" href="#">
+                <img id="imgLogo" src="img/ericGosselinLogo.png" alt="Logo Eric Gosselin">
+            </a>
+
+            <!-- Section hamburger' -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- Image du hamburger -->
+                <i class="fas fa-bars colorBlack"></i>
+            </button>
+
+            <!-- Ci-dessous disparait dans le hamburger -->
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link active" href="index.html">
+                        <h5>Accueil</h5>
+                    </a>
+                    <a class="nav-item nav-link" href="projets.html">
+                        <h5>Projets</h5>
+                    </a>
+                    <a class="nav-item nav-link" href="contact.html">
+                        <h5>Contact</h5>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Bannière de présentation -->
+    <Banner>
+        <div class="row">
+            <div class="col-12 bannerBG text-center paddingTopBottom5">
+                <h2>Mes projets</h2>
+                <h6 class="paddingTop1"><i>Cette page est constament en développement</i></h6>
+            </div>
+        </div>
+    </Banner>
+
+    <!-- Intérêt - Expertise - Formation -->
+    <section>
+        <div class="row paddingTop5">
+            <div class="offset-1 col-6">
+                <a href="https://madeinquebec.github.io/GitHub/IntegrationWeb1/bootstrapProjetFirstSiteWeb-Cafe/index.html" target="_blank"><img class="imgProject" src="img/coffee.png" alt="Coffee House Website"></a>
+            </div>
+            <div class="col-4 my-auto">
+                <h5>Site internet réalisé avec Bootstrap dans le cadre du cours d'intégration web 1.</h5>
+            </div>
+        </div>
+        <div class="row paddingTop5">
+            <div class="offset-1 col-4 my-auto">
+                <h5>Site internet réalisé avec Bootstrap et SASS dans le cadre du cours d'intégration web 2.</h5>
+            </div>
+            <div class="col-6">
+                <a href="https://madeinquebec.github.io/IntWeb2/ExerciceSASS/index.html" target="_blank"><img class="imgProject" src="img/mansory.png" alt="Mansory Website"></a>
+            </div>
+        </div>
+        <div class="row paddingTopBottom5">
+            <div class="offset-1 col-6">
+                <a href="https://madeinquebec.github.io/GitHub/IntegrationWeb2/ProjetFinalPWA-CrossFit/index.html" target="_blank"><img class="imgProject" src="img/crossfit.png" alt="CrossFit Website"></a>
+            </div>
+            <div class="col-4 my-auto">
+                <h5>Progressive Web App (PWA) réalisée avec Bootstrap et Javascript à titre de projet final dans le cours de d'intégration web 2.</h5>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid blackBG">
+            <div class="row">
+                <div class="col-12 text-center paddingTopBottom5">
+                    <h4 class="paddingBottom2">Tu crois que je suis la personne pour ton projet?</h4>
+                    <a href="contact.html"><i class="fas fa-4x fa-envelope-square"></i></a>
+                    <a href="https://github.com/Madeinquebec" target="_blank"><i class="fab fa-4x fa-github-square paddingLeft2"></i></a>
+                    <a href="https://www.linkedin.com/in/%C3%A9ric-gosselin-8b9220b/" target="_blank"><i class="fab fa-4x fa-linkedin paddingLeft2"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="bootstrap-4.0.0-dist/js/bootstrap.js"></script>
+</body>
+
+</html>

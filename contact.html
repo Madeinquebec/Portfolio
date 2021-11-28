@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--- contact.html --->
+<!--- Programme par : Eric Gosselin --->
+<!--- Derniere modification : 2021-11-27 --->
+<html lang="fr-ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Eric Gosselin</title>
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Ce qu'on met ici ne sera pas dans le hamburger -->
+            <a class="navbar-brand" href="#">
+                <img id="imgLogo" src="img/ericGosselinLogo.png" alt="Logo Eric Gosselin">
+            </a>
+
+            <!-- Section hamburger' -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- Image du hamburger -->
+                <i class="fas fa-bars colorBlack"></i>
+            </button>
+
+            <!-- Ci-dessous disparait dans le hamburger -->
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link active" href="index.html">
+                        <h5>Accueil</h5>
+                    </a>
+                    <a class="nav-item nav-link" href="projets.html">
+                        <h5>Projets</h5>
+                    </a>
+                    <a class="nav-item nav-link" href="contact.html">
+                        <h5>Contact</h5>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Section - Formulaire de contact -->
+    <section>
+
+        <div class="container">
+            <div class="row paddingTopBottom5">
+                <div class="offset-1 col-10">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h4 class="card-title pt-3">Formulaire de contact</h4>
+                            <p class="card-text pt-5">Vous désirez intégrer des éléments 3D à votre site
+                                internet?
+                                <br><br> Vous désirez obtenir une version de votre internet en réalité virtuelle?<br><br>Écrivez-moi
+                                pour me parler de
+                                votre projet, vous allez voir que nous allons bien nous entendre.</p>
+
+                            <form>
+                                <div class="container py-5">
+                                    <div class="form-group">
+                                        <label for="inputFirstName">Prénom</label>
+                                        <input type="text" class="form-control" id="inputFirstName">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="inputLastName">Nom de famille</label>
+                                        <input type="text" class="form-control" id="inputLastName">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="inputEmail">Adresse courriel</label>
+                                        <input type="email" class="form-control" id="inputEmail">
+                                    </div>
+                                    <div class="form-group pb-3">
+                                        <label for="inputMessage">Message</label>
+                                        <input type="text" class="form-control" rows="4" id="inputMessage">
+                                    </div>
+
+                                    <button type="submit" class="btn btn-secondary">
+                                        <h5>Envoyer</h5>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid blackBG">
+            <div class="row">
+                <div class="col-12 text-center paddingTopBottom5">
+                    <h4 class="paddingBottom2">Tu crois que je suis la personne pour ton projet?</h4>
+                    <a href="contact.html"><i class="fas fa-4x fa-envelope-square"></i></a>
+                    <a href="https://github.com/Madeinquebec" target="_blank"><i class="fab fa-4x fa-github-square paddingLeft2"></i></a>
+                    <a href="https://www.linkedin.com/in/%C3%A9ric-gosselin-8b9220b/" target="_blank"><i class="fab fa-4x fa-linkedin paddingLeft2"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="bootstrap-4.0.0-dist/js/bootstrap.js"></script>
+</body>
+
+</html>

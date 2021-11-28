@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--- index.html --->
+<!--- Programme par : Eric Gosselin --->
+<!--- Derniere modification : 2021-11-27 --->
+<html lang="fr-ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Eric Gosselin</title>
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Ce qu'on met ici ne sera pas dans le hamburger -->
+            <a class="navbar-brand" href="#">
+                <img id="imgLogo" src="img/ericGosselinLogo.png" alt="Logo Eric Gosselin">
+            </a>
+
+            <!-- Section hamburger' -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- Image du hamburger -->
+                <i class="fas fa-bars colorBlack"></i>
+            </button>
+
+            <!-- Ci-dessous disparait dans le hamburger -->
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link active" href="index.html">
+                        <h5>Accueil</h5>
+                    </a>
+                    <a class="nav-item nav-link" href="projets.html">
+                        <h5>Projets</h5>
+                    </a>
+                    <a class="nav-item nav-link" href="contact.html">
+                        <h5>Contact</h5>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Bannière de présentation -->
+    <Banner>
+        <div class="row">
+            <div class="col-12 bannerBG text-center paddingTopBottom5">
+                <img id="imgBorder" src="img/ericGosselinPhoto.png" alt="Photo Eric Gosselin">
+                <h2>Eric Gosselin</h2>
+                <h5>Intégrateur de réalité virtuelle adaptée pour le web</h5>
+                <br>
+                <h6>Durant les dernières années, j’ai fait mes premiers pas dans le développement de site internet
+                    <br> ayant une forte teneur en 3D ou intégrant des éléments de réalité virtuelle.</h6>
+            </div>
+        </div>
+    </Banner>
+
+    <!-- Intérêt - Expertise - Formation -->
+    <section>
+        <div class="row paddingTop5">
+            <div class="offset-1 col-5 text-center">
+                <h2>Intérêts</h2>
+            </div>
+            <div class="col-5">
+                <ul>
+                    <li>Je suis intéressé à obtenir des contrats et prendre part à des projets qui contiennent des composantes 3D ou de réalité virtuelle.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row paddingTop3">
+            <div class="offset-1 col-5 text-center">
+                <h2>Expertise</h2>
+            </div>
+            <div class="col-5">
+                <ul>
+                    <li>Maîtrise des langages de programmation Javascript et C++.</li>
+                    <li>Connaissance très approfondie des frameworks Three.js, Vue.js et React.</li>
+                    <li>Excellente connaissance du moteur de jeu Unreal Engine 5 et du logiciel de modélisation Blender.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row paddingTop3 paddingBottom5">
+            <div class="offset-1 col-5 text-center">
+                <h2>Formation</h2>
+            </div>
+            <div class="col-5">
+                <ul>
+                    <li>J'ai complété une Attestation d'étude collégiale en Développement web Front End.</li>
+                    <li>Je poursuis présentement une Attestation d'étude collégiale en conception de réalité virtuelle et réalité augmentée.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid blackBG">
+            <div class="row">
+                <div class="col-12 text-center paddingTopBottom5">
+                    <h4 class="paddingBottom2">Tu crois que je suis la personne pour ton projet?</h4>
+                    <a href="contact.html"><i class="fas fa-4x fa-envelope-square"></i></a>
+                    <a href="https://github.com/Madeinquebec" target="_blank"><i class="fab fa-4x fa-github-square paddingLeft2"></i></a>
+                    <a href="https://www.linkedin.com/in/%C3%A9ric-gosselin-8b9220b/" target="_blank"><i class="fab fa-4x fa-linkedin paddingLeft2"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="bootstrap-4.0.0-dist/js/bootstrap.js"></script>
+</body>
+
+</html>
